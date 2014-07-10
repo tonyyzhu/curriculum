@@ -1,4 +1,5 @@
-/*
+/*  Exercise 1: Build a function my_max() which takes an array and returns the maximum number
+
 myArray = [1,2,3,4,5,6,7,8,9];
 function my_max(Array) {
     i = 0;
@@ -15,6 +16,8 @@ function my_max(Array) {
 mmax = my_max(myArray);
 alert(mmax);
 
+Exercise 2: Building a function vowel() which takes a string and returns the number of vowels(AEIOUY).
+
 myString = "abcdefg";
 function vowel_count(String) {
     return String.length;
@@ -22,6 +25,8 @@ function vowel_count(String) {
 mvowel = vowel_count(myString);
 alert(mvowel);
 */
+
+// Exercise 3: Build a function reverse() which takes a string and returns all the characters in the opposite position.
 
 function reverse(st) {
     var i = st.length;
@@ -35,10 +40,10 @@ function reverse(st) {
 mreverse = reverse("This is a string");
 alert(mreverse);
 
-/*
+/*   Tutor Ben's suggestion: use FOR loop instead of WHILE loop
 for(var i=st.length; i<st.length; i--) {
 Return my_Max()
 }
 */
 
-/* 0430133818 An Levine */
+/* 0430133818 An Levin */
