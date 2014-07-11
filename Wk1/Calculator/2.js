@@ -17,8 +17,10 @@ function divide(a,b) {
     if (b != 0) {
             result = a/b;
             return result;
-    };
-    alert ("numbers can not be divided by zero!");
+    }
+    else{
+            alert ("numbers can not be divided by zero!");
+    }
 };
 
 function subtract(a,b) {
