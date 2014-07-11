@@ -14,8 +14,11 @@ function multiply(a, b) {
 };
 
 function divide(a,b) {
-    result = a/b;
-    return result;
+    if (b != 0) {
+            result = a/b;
+            return result;
+    };
+    alert ("numbers can not be divided by zero!");
 };
 
 function subtract(a,b) {
@@ -24,4 +27,4 @@ function subtract(a,b) {
 };
 
 // Test above functions
-// alert(divide(3,2));   // All 4 functions work as expected!
+// alert(divide(3,0));   // All 4 functions work as expected!
